@@ -51,7 +51,7 @@ class AddGroceryForm extends Component {
             placeholder="Quantity"
             value={this.state.quantity}
             onChange={event => this.updateProperty(event)}
-          />
+          />  
         </label>
         <label>
           Notes
