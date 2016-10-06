@@ -4,7 +4,7 @@ import { mount } from 'enzyme'
 
 import { mockStore } from '../mocks/mockStore'
 import AddGroceryContainer from './AddGrocery'
-
+// Test that dispatch has been called with addGrocery
 describe('AddGroceryContainer', () => {
 
   function setup() {
@@ -25,7 +25,9 @@ describe('AddGroceryContainer', () => {
 
   it('should render', () => {
     const { Component } = setup()
+
     expect(Component.length).toBeTruthy()
   })
+
 
 })
